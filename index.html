@@ -43,10 +43,13 @@
    <section>   
       <article>
          <h1>John F. Kennedy Inaugural Address</h1>
+         <!-- Allows user to control a video that is embedded onto the webpage. Poster is an image that was selected to be the image shown when the page first opens and the video hasnt been selected. The sources allow two different medias to be used for different web browsers. The track allows the video to have captions added by the coder, put on default so they are automatically shown. -->
          <video controls poster="ws_jfk_poster.png">
             <source src="ws_jfk_speech.mp4" type="video/mp4" />
             <source src="ws_jfk_speech.webm" type="video/webm" />
+            <!-- Links in the captions that the coder made in a .vtt text. -->
             <track src="ws_captions.vtt" kind="captions" label="Speech Captions" default />
+            <!-- a note to the viewer telling them what they need to be able to play the video. -->
             <p><em>To play this video clip, your browser needs to support HtML5.</em></p>
          </video>      
          <p>Vice President Johnson, Mr. Speaker, Mr. Chief Justice, President Eisenhower, 

@@ -14,14 +14,17 @@
 */
 
 /* Video Player Styles */
+/* Dispalys video as a block element that takes 90% of space provided for it. Sets top and bottom equal to eachother while leaving the right and left sides with 5px each. */
 video {
     display: block;
     width: 90%;
     margin: 5px auto;
 }
 
+/* Sets different rules for screens bigger than 521 pixels. */
 @media only screen and (min-width: 521px) {
 
+    /* Sets videos width to 360 pixels while keeping the photo floated to the right. Top, right, bottom, and left margins are all 10 pixels each. */
     video {
         width: 360px;
         float: right;
@@ -30,6 +33,7 @@ video {
 }
 
 /* Track Styles */
+/* Sets captions font, color, and background colors to be different from the default. */
 ::cue {
     font: 1.3em sans-serif;
     color: rgb(221, 128, 160);
